@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service Monitor {
+  rpc AcompanharProcessamento (TarefaRequest) returns (stream StatusResponse) {}
+}
+
+message TarefaRequest {
+  string nome_tarefa = 1;
+}
+
+message StatusResponse {
+  int32 progresso = 1;
+  string mensagem = 2;
+}

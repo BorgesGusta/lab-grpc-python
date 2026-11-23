@@ -30,3 +30,5 @@ python3 servidor.py
 cd 02-grpc-unary
 python3 cliente.py
 ```
+
+* **[`03-grpc-streaming/`](./03-grpc-streaming)**: Server Streaming RPC, onde o cliente faz uma requisição e recebe um fluxo contínuo de atualizações em tempo real.
