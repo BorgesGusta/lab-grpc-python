@@ -12,3 +12,4 @@ Repositório de experimentos práticos sobre **RPC (Remote Procedure Call)** uti
 ## 🚀 Como Executar
 
 Clone o repositório, configure o ambiente virtual, instale as dependências e execute os scripts de cada pasta (`servidor.py` seguido de `cliente.py`) em terminais separados.
+* **[`05-grpc-timeout-erros/`](./05-grpc-timeout-erros)**: Resiliência em chamadas remotas utilizando `Deadlines` (timeouts) e tratamento de exceções (`StatusCode.DEADLINE_EXCEEDED`).

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service Calculadora {
+  rpc Somar (NumerosRequest) returns (ResultadoResponse) {}
+}
+
+message NumerosRequest {
+  int32 a = 1;
+  int32 b = 2;
+}
+
+message ResultadoResponse {
+  int32 resultado = 1;
+}
